@@ -1,0 +1,33 @@
+{
+  "name": "ytdl-cli",
+  "version": "1.0.0",
+  "description": "Interactive CLI YouTube video & audio downloader powered by yt-dlp",
+  "main": "bin/ytdl.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "bin": {
+    "ytdl": "./bin/ytdl.js"
+  },
+  "scripts": {
+    "start": "node ./bin/ytdl.js"
+  },
+  "keywords": [
+    "yt-dlp",
+    "youtube",
+    "downloader",
+    "cli",
+    "video",
+    "audio",
+    "mp4",
+    "mp3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^8.7.3",
+    "chalk": "^6.0.1",
+    "ora": "^9.4.1"
+  }
+}
