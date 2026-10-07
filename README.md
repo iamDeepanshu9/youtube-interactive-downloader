@@ -66,7 +66,7 @@ Paste a YouTube URL when prompted. You can also supply it immediately:
 npm start -- "https://www.youtube.com/watch?v=VIDEO_ID"
 ```
 
-On macOS or Linux, `./ytdl` is an equivalent shortcut. Windows users should use `npm start`.
+
 
 ## How It Works
 
